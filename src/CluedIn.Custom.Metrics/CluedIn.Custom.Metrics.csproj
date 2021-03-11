@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <IsCluedInServerComponent>true</IsCluedInServerComponent>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="CluedIn.Core" />
+    <PackageReference Include="CluedIn.Metrics" />
+    <PackageReference Include="CluedIn.Processing" />
+  </ItemGroup>
+</Project>
