@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CluedIn.Custom.Metrics", "src\CluedIn.Custom.Metrics\CluedIn.Custom.Metrics.csproj", "{7F0A7C84-4866-4685-8B82-64F511DD660D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{05CA09A1-2369-4FD8-93E6-458E33183E1C}"
+	ProjectSection(SolutionItems) = preProject
+		Packages.props = Packages.props
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{F0AEF214-BF0D-4365-BF66-A0D839B2B71B}"
 	ProjectSection(SolutionItems) = preProject
@@ -32,6 +35,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{155D8B42
 		Nuget.config = Nuget.config
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{01BFB0D0-5579-425B-9DEE-8ACF88F9F0BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{127AEF1C-54A7-4B49-A09E-D5F033C8744C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CluedIn.Custom.Metrics.Tests", "Test\unit-tests\CluedIn.Custom.Metrics.Tests\CluedIn.Custom.Metrics.Tests.csproj", "{D28026D6-B595-40CB-8B12-C775D51FC45A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,13 +51,19 @@ Global
 		{7F0A7C84-4866-4685-8B82-64F511DD660D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F0A7C84-4866-4685-8B82-64F511DD660D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F0A7C84-4866-4685-8B82-64F511DD660D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D28026D6-B595-40CB-8B12-C775D51FC45A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D28026D6-B595-40CB-8B12-C775D51FC45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D28026D6-B595-40CB-8B12-C775D51FC45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D28026D6-B595-40CB-8B12-C775D51FC45A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{7F0A7C84-4866-4685-8B82-64F511DD660D} = {01BFB0D0-5579-425B-9DEE-8ACF88F9F0BD}
 		{F0AEF214-BF0D-4365-BF66-A0D839B2B71B} = {05CA09A1-2369-4FD8-93E6-458E33183E1C}
 		{857093C3-F2D0-4C00-B03B-0DCE3E3AB1CE} = {F0AEF214-BF0D-4365-BF66-A0D839B2B71B}
+		{D28026D6-B595-40CB-8B12-C775D51FC45A} = {127AEF1C-54A7-4B49-A09E-D5F033C8744C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA893BBE-FE96-4A6F-803A-038F8649A52A}

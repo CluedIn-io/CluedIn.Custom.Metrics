@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entity id="771590eb-b5e5-5e7d-beb6-83ddee5f916c" organization="02712a2b-b36a-4f11-95ba-d1850a311419" persistVersion="1" persistHash="o5fiapj2fkclkq3bdmxtrw==" appVersion="2.17.0.0">
+  <processedData origin="/PhoneNumber#CluedIn:+447473847152" appVersion="2.17.0.0">
+    <entityType>/PhoneNumber</entityType>
+    <name>+447473847152</name>
+    <codes>
+      <value>/PhoneNumber#CluedIn:+447473847152</value>
+    </codes>
+    <discoveryDate>2019-06-13T14:50:23.5040000+00:00</discoveryDate>
+    <edges>
+      <incoming>
+        <edge type="/Has" creationOptions="Default">
+          <from reference="C:/Infrastructure/Contact#Office365Online:AAMkAGJmYmVjZWJmLTM5MTYtNGRkMi04ZWRhLTIyZTUyZWFhZWM3ZgAuAAAAAABlBVRV8DnLQphBaO1h99afAQBu-lB6FCjaTpLaR_dv5DThAAAAAAEOAAA=/AAMkAGJmYmVjZWJmLTM5MTYtNGRkMi04ZWRhLTIyZTUyZWFhZWM3ZgBGAAAAAABlBVRV8DnLQphBaO1h99afBwBu-lB6FCjaTpLaR_dv5DThAAAAAAEOAABu-lB6FCjaTpLaR_dv5DThAAAh1ok8AAA=" />
+          <to reference="C:/PhoneNumber#CluedIn:+447473847152">
+            <property key="phoneNumber.countryCode">44</property>
+            <property key="phoneNumber.countryCodeSource">FROM_NUMBER_WITH_PLUS_SIGN</property>
+            <property key="phoneNumber.expectedCostInRegion">UNKNOWN_COST</property>
+            <property key="phoneNumber.formattedNumberE164">+447473847152</property>
+            <property key="phoneNumber.formattedNumberInRegionForMobileDialing">+44 7473 847152</property>
+            <property key="phoneNumber.formattedNumberInRegionOriginalFormat">07473 847152</property>
+            <property key="phoneNumber.formattedNumberInRegionOutOfCountryCallingNumber">00 44 7473 847152</property>
+            <property key="phoneNumber.formattedNumberInRegionOutOfCountryKeepingAlphaChars">00 44 7473 847152</property>
+            <property key="phoneNumber.formattedNumberInternational">+44 7473 847152</property>
+            <property key="phoneNumber.formattedNumberNational">07473 847152</property>
+            <property key="phoneNumber.formattedNumberRfc3966">tel:+44-7473-847152</property>
+            <property key="phoneNumber.isCarrierSpecific">False</property>
+            <property key="phoneNumber.isEmergencyNumber">False</property>
+            <property key="phoneNumber.isNumberGeographical">False</property>
+            <property key="phoneNumber.italianLeadingZero">False</property>
+            <property key="phoneNumber.metadataDisplayCountyEnglish">United Kingdom</property>
+            <property key="phoneNumber.nationalNumber">7473847152</property>
+            <property key="phoneNumber.numberOfLeadingZeros">1</property>
+            <property key="phoneNumber.numberType">MOBILE</property>
+            <property key="phoneNumber.timeZones">Europe/London</property>
+          </to>
+        </edge>
+      </incoming>
+      <outgoing>
+        <edge type="/DiscoveredAt" creationOptions="Default" from="C:/PhoneNumber#CluedIn:+447473847152" to="C:/Temporal/Date#CluedIn:2019-06-13" />
+      </outgoing>
+    </edges>
+    <edgesSummary>
+      <incoming>
+        <edgeSummary edgeType="/Has" count="1" />
+      </incoming>
+      <outgoing>
+        <edgeSummary edgeType="/DiscoveredAt" count="1" />
+      </outgoing>
+    </edgesSummary>
+    <properties type="/Metadata/KeyValue">
+      <property key="phoneNumber.countryCode">44</property>
+      <property key="phoneNumber.countryCodeSource">FROM_NUMBER_WITH_PLUS_SIGN</property>
+      <property key="phoneNumber.expectedCostInRegion">UNKNOWN_COST</property>
+      <property key="phoneNumber.formattedNumberE164">+447473847152</property>
+      <property key="phoneNumber.formattedNumberInRegionForMobileDialing">+44 7473 847152</property>
+      <property key="phoneNumber.formattedNumberInRegionOriginalFormat">07473 847152</property>
+      <property key="phoneNumber.formattedNumberInRegionOutOfCountryCallingNumber">00 44 7473 847152</property>
+      <property key="phoneNumber.formattedNumberInRegionOutOfCountryKeepingAlphaChars">00 44 7473 847152</property>
+      <property key="phoneNumber.formattedNumberInternational">+44 7473 847152</property>
+      <property key="phoneNumber.formattedNumberNational">07473 847152</property>
+      <property key="phoneNumber.formattedNumberRfc3966">tel:+44-7473-847152</property>
+      <property key="phoneNumber.isCarrierSpecific">False</property>
+      <property key="phoneNumber.isEmergencyNumber">False</property>
+      <property key="phoneNumber.isNumberGeographical">False</property>
+      <property key="phoneNumber.italianLeadingZero">False</property>
+      <property key="phoneNumber.metadataDisplayCountyEnglish">United Kingdom</property>
+      <property key="phoneNumber.nationalNumber">7473847152</property>
+      <property key="phoneNumber.numberOfLeadingZeros">1</property>
+      <property key="phoneNumber.numberType">MOBILE</property>
+      <property key="phoneNumber.timeZones">Europe/London</property>
+    </properties>
+    <sortDate>2019-06-13T14:50:23.5010000+00:00</sortDate>
+    <timeToLive>0</timeToLive>
+    <isShadowEntity>True</isShadowEntity>
+  </processedData>
+  <details>
+    <dataMappings>
+      <mapping id="19" discoveryDate="2019-06-13T14:50:23.5010000+00:00">
+        <sameAs ref="3" />
+      </mapping>
+    </dataMappings>
+    <versionHistory>
+      <version dataReference="3" date="2019-06-13T14:50:23.5010000+00:00" changeType="Discovered" changeCount="26" editDistance="0" branch="/PhoneNumber#CluedIn:+447473847152">
+        <change type="Added" changedPart="Property" key="phoneNumber.countryCode" newValue="44" />
+        <change type="Added" changedPart="Property" key="phoneNumber.countryCodeSource" newValue="FROM_NUMBER_WITH_PLUS_SIGN" />
+        <change type="Added" changedPart="Property" key="phoneNumber.expectedCostInRegion" newValue="UNKNOWN_COST" />
+        <change type="Added" changedPart="Property" key="phoneNumber.formattedNumberE164" newValue="+447473847152" />
+        <change type="Added" changedPart="Property" key="phoneNumber.formattedNumberInRegionForMobileDialing" newValue="+44 7473 847152" />
+        <change type="Added" changedPart="Property" key="phoneNumber.formattedNumberInRegionOriginalFormat" newValue="07473 847152" />
+        <change type="Added" changedPart="Property" key="phoneNumber.formattedNumberInRegionOutOfCountryCallingNumber" newValue="00 44 7473 847152" />
+        <change type="Added" changedPart="Property" key="phoneNumber.formattedNumberInRegionOutOfCountryKeepingAlphaChars" newValue="00 44 7473 847152" />
+        <change type="Added" changedPart="Property" key="phoneNumber.formattedNumberInternational" newValue="+44 7473 847152" />
+        <change type="Added" changedPart="Property" key="phoneNumber.formattedNumberNational" newValue="07473 847152" />
+        <change type="Added" changedPart="Property" key="phoneNumber.formattedNumberRfc3966" newValue="tel:+44-7473-847152" />
+        <change type="Added" changedPart="Property" key="phoneNumber.isCarrierSpecific" newValue="False" />
+        <change type="Added" changedPart="Property" key="phoneNumber.isEmergencyNumber" newValue="False" />
+        <change type="Added" changedPart="Property" key="phoneNumber.isNumberGeographical" newValue="False" />
+        <change type="Added" changedPart="Property" key="phoneNumber.italianLeadingZero" newValue="False" />
+        <change type="Added" changedPart="Property" key="phoneNumber.metadataDisplayCountyEnglish" newValue="United Kingdom" />
+        <change type="Added" changedPart="Property" key="phoneNumber.nationalNumber" newValue="7473847152" />
+        <change type="Added" changedPart="Property" key="phoneNumber.numberOfLeadingZeros" newValue="1" />
+        <change type="Added" changedPart="Property" key="phoneNumber.numberType" newValue="MOBILE" />
+        <change type="Added" changedPart="Property" key="phoneNumber.timeZones" newValue="Europe/London" />
+        <change type="Added" changedPart="Metadata" key="Aliases" />
+        <change type="Added" changedPart="Metadata" key="Authors" />
+        <change type="Added" changedPart="Metadata" key="EntityType" newValue="/PhoneNumber" />
+        <change type="Added" changedPart="Metadata" key="ExternalReferences" />
+        <change type="Added" changedPart="Metadata" key="Name" newValue="+447473847152" />
+        <change type="Added" changedPart="Metadata" key="Tags" />
+      </version>
+    </versionHistory>
+    <data persistHash="xfs0qwrp+bnl92k6fvcs+a==" id="3" appVersion="2.17.0.0">
+      <processingFlags />
+      <entityData id="5" origin="/PhoneNumber#CluedIn:+447473847152" appVersion="2.17.0.0">
+        <entityType>/PhoneNumber</entityType>
+        <name>+447473847152</name>
+        <codes>
+          <value>/PhoneNumber#CluedIn:+447473847152</value>
+        </codes>
+        <discoveryDate>2019-06-13T14:50:23.5010000+00:00</discoveryDate>
+        <edges>
+          <incoming>
+            <edge type="/Has" creationOptions="Default">
+              <from reference="C:/Infrastructure/Contact#Office365Online:AAMkAGJmYmVjZWJmLTM5MTYtNGRkMi04ZWRhLTIyZTUyZWFhZWM3ZgAuAAAAAABlBVRV8DnLQphBaO1h99afAQBu-lB6FCjaTpLaR_dv5DThAAAAAAEOAAA=/AAMkAGJmYmVjZWJmLTM5MTYtNGRkMi04ZWRhLTIyZTUyZWFhZWM3ZgBGAAAAAABlBVRV8DnLQphBaO1h99afBwBu-lB6FCjaTpLaR_dv5DThAAAAAAEOAABu-lB6FCjaTpLaR_dv5DThAAAh1ok8AAA=" />
+              <to reference="C:/PhoneNumber#CluedIn:+447473847152">
+                <property key="phoneNumber.countryCode">44</property>
+                <property key="phoneNumber.countryCodeSource">FROM_NUMBER_WITH_PLUS_SIGN</property>
+                <property key="phoneNumber.expectedCostInRegion">UNKNOWN_COST</property>
+                <property key="phoneNumber.formattedNumberE164">+447473847152</property>
+                <property key="phoneNumber.formattedNumberInRegionForMobileDialing">+44 7473 847152</property>
+                <property key="phoneNumber.formattedNumberInRegionOriginalFormat">07473 847152</property>
+                <property key="phoneNumber.formattedNumberInRegionOutOfCountryCallingNumber">00 44 7473 847152</property>
+                <property key="phoneNumber.formattedNumberInRegionOutOfCountryKeepingAlphaChars">00 44 7473 847152</property>
+                <property key="phoneNumber.formattedNumberInternational">+44 7473 847152</property>
+                <property key="phoneNumber.formattedNumberNational">07473 847152</property>
+                <property key="phoneNumber.formattedNumberRfc3966">tel:+44-7473-847152</property>
+                <property key="phoneNumber.isCarrierSpecific">False</property>
+                <property key="phoneNumber.isEmergencyNumber">False</property>
+                <property key="phoneNumber.isNumberGeographical">False</property>
+                <property key="phoneNumber.italianLeadingZero">False</property>
+                <property key="phoneNumber.metadataDisplayCountyEnglish">United Kingdom</property>
+                <property key="phoneNumber.nationalNumber">7473847152</property>
+                <property key="phoneNumber.numberOfLeadingZeros">1</property>
+                <property key="phoneNumber.numberType">MOBILE</property>
+                <property key="phoneNumber.timeZones">Europe/London</property>
+              </to>
+            </edge>
+          </incoming>
+        </edges>
+        <edgesSummary />
+        <properties type="/Metadata/KeyValue">
+          <property key="phoneNumber.countryCode">44</property>
+          <property key="phoneNumber.countryCodeSource">FROM_NUMBER_WITH_PLUS_SIGN</property>
+          <property key="phoneNumber.expectedCostInRegion">UNKNOWN_COST</property>
+          <property key="phoneNumber.formattedNumberE164">+447473847152</property>
+          <property key="phoneNumber.formattedNumberInRegionForMobileDialing">+44 7473 847152</property>
+          <property key="phoneNumber.formattedNumberInRegionOriginalFormat">07473 847152</property>
+          <property key="phoneNumber.formattedNumberInRegionOutOfCountryCallingNumber">00 44 7473 847152</property>
+          <property key="phoneNumber.formattedNumberInRegionOutOfCountryKeepingAlphaChars">00 44 7473 847152</property>
+          <property key="phoneNumber.formattedNumberInternational">+44 7473 847152</property>
+          <property key="phoneNumber.formattedNumberNational">07473 847152</property>
+          <property key="phoneNumber.formattedNumberRfc3966">tel:+44-7473-847152</property>
+          <property key="phoneNumber.isCarrierSpecific">False</property>
+          <property key="phoneNumber.isEmergencyNumber">False</property>
+          <property key="phoneNumber.isNumberGeographical">False</property>
+          <property key="phoneNumber.italianLeadingZero">False</property>
+          <property key="phoneNumber.metadataDisplayCountyEnglish">United Kingdom</property>
+          <property key="phoneNumber.nationalNumber">7473847152</property>
+          <property key="phoneNumber.numberOfLeadingZeros">1</property>
+          <property key="phoneNumber.numberType">MOBILE</property>
+          <property key="phoneNumber.timeZones">Europe/London</property>
+        </properties>
+      </entityData>
+      <processedData ref="5" origin="/PhoneNumber#CluedIn:+447473847152" appVersion="2.17.0.0">
+        <edges>
+          <outgoing>
+            <edge type="/DiscoveredAt" creationOptions="Default" from="C:/PhoneNumber#CluedIn:+447473847152" to="C:/Temporal/Date#CluedIn:2019-06-13" />
+          </outgoing>
+        </edges>
+        <edgesSummary>
+          <incoming>
+            <edgeSummary edgeType="/Has" count="1" />
+          </incoming>
+          <outgoing>
+            <edgeSummary edgeType="/DiscoveredAt" count="1" />
+          </outgoing>
+        </edgesSummary>
+        <properties type="/Metadata/KeyValue" />
+        <sortDate>2019-06-13T14:50:23.5010000+00:00</sortDate>
+        <timeToLive>0</timeToLive>
+        <isShadowEntity>False</isShadowEntity>
+      </processedData>
+    </data>
+    <references />
+  </details>
+</entity>

@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entity id="443ccecf-c888-54d8-a1e2-600ffa3aad86" organization="02712a2b-b36a-4f11-95ba-d1850a311419" persistVersion="4" persistHash="vx9kmkurwe0i84vftaq3aa==">
+  <processedData origin="/Infrastructure/User#Office365Online:p.heltewig@cognigy.com">
+    <entityType>/Infrastructure/User</entityType>
+    <name>Philipp Heltewig</name>
+    <aliases>
+      <value>Philipp Heltewig</value>
+    </aliases>
+    <codes>
+      <value>/Infrastructure/User#Office365Online:p.heltewig@cognigy.com</value>
+      <value>/Infrastructure/User#Office365Online:ph@cluedin.net</value>
+      <value>/Person#CluedIn(email):p.heltewig@cognigy.com</value>
+      <value>/Person#CluedIn(email):ph@cluedin.net</value>
+    </codes>
+    <discoveryDate>2019-06-13T14:50:21.2600000+00:00</discoveryDate>
+    <edges>
+      <outgoing>
+        <edge type="/DiscoveredAt" creationOptions="Default" from="Philipp Heltewig§C:/Infrastructure/User#Office365Online:p.heltewig@cognigy.com" to="2019-06-13§C:/Temporal/Date#CluedIn:2019-06-13" />
+        <edge type="/DiscoveredAt" creationOptions="Default" from="Philipp Heltewig§C:/Infrastructure/User#Office365Online:p.heltewig@cognigy.com" to="C:/Temporal/Date#CluedIn:2019-06-13" />
+        <edge type="/PartOf" creationOptions="OnlyIfReferencePointExists" from="C:/Infrastructure/User#Office365Online:p.heltewig@cognigy.com" to="C:/Organization#CluedIn(emailDomain):cognigy.com" />
+        <edge type="/PartOf" creationOptions="Default" from="C:/Infrastructure/User#Office365Online:p.heltewig@cognigy.com" to="C:/Organization#CluedIn(emailDomain):cluedin.net" />
+      </outgoing>
+    </edges>
+    <edgesSummary>
+      <outgoing>
+        <edgeSummary edgeType="/DiscoveredAt" count="1" />
+      </outgoing>
+    </edgesSummary>
+    <properties type="/Metadata/KeyValue">
+      <property key="office365.recipient.emailAddress">p.heltewig@cognigy.com</property>
+      <property key="office365.recipient.name">Philipp Heltewig</property>
+      <property key="user.email">ph@cluedin.net</property>
+      <property key="user.firstName">Philipp</property>
+      <property key="user.fullName">Philipp Heltewig</property>
+      <property key="user.lastName">Heltewig</property>
+    </properties>
+    <isSensitiveInformation>False</isSensitiveInformation>
+    <sortDate>2019-06-13T14:50:21.2600000+00:00</sortDate>
+    <timeToLive>0</timeToLive>
+    <isShadowEntity>False</isShadowEntity>
+    <providerDefinitionIds>
+      <value>c29cc347-223f-4143-881d-e2906d079614</value>
+    </providerDefinitionIds>
+    <dataPersistHashes>
+      <value>1w7nmtb3maz/efxw0swlya==|Head</value>
+      <value>ylxmzrmv/sl4ygpjqgnqog==|Head</value>
+    </dataPersistHashes>
+  </processedData>
+  <details>
+    <dataMappings>
+      <mapping id="67" discoveryDate="2019-06-13T14:49:58.3490000+00:00">
+        <sameAs ref="14" code="/Infrastructure/User#Office365Online:p.heltewig@cognigy.com" />
+        <sameAs ref="59" code="/Infrastructure/User#Office365Online:ph@cluedin.net" />
+      </mapping>
+    </dataMappings>
+    <versionHistory>
+      <version dataReference="14" date="2019-06-13T14:49:58.3490000+00:00" changeType="Discovered" changeCount="10" editDistance="0" branch="/Infrastructure/User#Office365Online:p.heltewig@cognigy.com">
+        <change type="Added" changedPart="Property" key="user.email" newValue="p.heltewig@cognigy.com" />
+        <change type="Added" changedPart="Property" key="user.firstName" newValue="Philipp" />
+        <change type="Added" changedPart="Property" key="user.fullName" newValue="Philipp Heltewig" />
+        <change type="Added" changedPart="Property" key="user.lastName" newValue="Heltewig" />
+        <change type="Added" changedPart="Metadata" key="Aliases" />
+        <change type="Added" changedPart="Metadata" key="Authors" />
+        <change type="Added" changedPart="Metadata" key="EntityType" newValue="/Infrastructure/User" />
+        <change type="Added" changedPart="Metadata" key="ExternalReferences" />
+        <change type="Added" changedPart="Metadata" key="Name" newValue="Philipp Heltewig" />
+        <change type="Added" changedPart="Metadata" key="Tags" />
+      </version>
+      <version dataReference="59" date="2019-06-13T14:50:21.2600000+00:00" changeType="Discovered" changeCount="10" editDistance="0" branch="/Infrastructure/User#Office365Online:ph@cluedin.net">
+        <change type="Added" changedPart="Property" key="user.email" newValue="ph@cluedin.net" />
+        <change type="Added" changedPart="Property" key="user.firstName" newValue="Philipp" />
+        <change type="Added" changedPart="Property" key="user.fullName" newValue="Philipp Heltewig" />
+        <change type="Added" changedPart="Property" key="user.lastName" newValue="Heltewig" />
+        <change type="Added" changedPart="Metadata" key="Aliases" />
+        <change type="Added" changedPart="Metadata" key="Authors" />
+        <change type="Added" changedPart="Metadata" key="EntityType" newValue="/Infrastructure/User" />
+        <change type="Added" changedPart="Metadata" key="ExternalReferences" />
+        <change type="Added" changedPart="Metadata" key="Name" newValue="Philipp Heltewig" />
+        <change type="Added" changedPart="Metadata" key="Tags" />
+      </version>
+    </versionHistory>
+    <data persistHash="1w7nmtb3maz/efxw0swlya==" originProviderDefinitionId="c29cc347-223f-4143-881d-e2906d079614" id="14" origin="/Infrastructure/User#Office365Online:p.heltewig@cognigy.com" appVersion="2.17.0.0">
+      <processingFlags>
+        <isEdgesProcessed>True</isEdgesProcessed>
+      </processingFlags>
+      <entityData id="5" origin="/Infrastructure/User#Office365Online:p.heltewig@cognigy.com">
+        <entityType>/Infrastructure/User</entityType>
+        <name>Philipp Heltewig</name>
+        <codes>
+          <value>/Infrastructure/User#Office365Online:p.heltewig@cognigy.com</value>
+        </codes>
+        <discoveryDate>2019-06-13T14:49:58.3490000+00:00</discoveryDate>
+        <edges />
+        <edgesSummary />
+        <properties type="/Metadata/KeyValue">
+          <property key="office365.recipient.emailAddress">p.heltewig@cognigy.com</property>
+          <property key="office365.recipient.name">Philipp Heltewig</property>
+        </properties>
+      </entityData>
+      <processedData ref="5" origin="/Infrastructure/User#Office365Online:p.heltewig@cognigy.com">
+        <codes>
+          <value>/Person#CluedIn(email):p.heltewig@cognigy.com</value>
+        </codes>
+        <edges>
+          <outgoing>
+            <edge type="/DiscoveredAt" creationOptions="Default" from="C:/Infrastructure/User#Office365Online:p.heltewig@cognigy.com" to="C:/Temporal/Date#CluedIn:2019-06-13" />
+            <edge type="/PartOf" creationOptions="OnlyIfReferencePointExists" from="C:/Infrastructure/User#Office365Online:p.heltewig@cognigy.com" to="C:/Organization#CluedIn(emailDomain):cognigy.com" />
+          </outgoing>
+        </edges>
+        <edgesSummary>
+          <outgoing>
+            <edgeSummary edgeType="/DiscoveredAt" count="1" />
+            <edgeSummary edgeType="/PartOf" count="1" />
+          </outgoing>
+        </edgesSummary>
+        <properties type="/Metadata/KeyValue">
+          <remove-property key="office365.recipient.emailAddress">remove</remove-property>
+          <remove-property key="office365.recipient.name">remove</remove-property>
+          <property key="user.email">p.heltewig@cognigy.com</property>
+          <property key="user.firstName">Philipp</property>
+          <property key="user.fullName">Philipp Heltewig</property>
+          <property key="user.lastName">Heltewig</property>
+        </properties>
+        <sortDate>2019-06-13T14:49:58.3490000+00:00</sortDate>
+        <timeToLive>0</timeToLive>
+        <isShadowEntity>False</isShadowEntity>
+      </processedData>
+    </data>
+    <data persistHash="ylxmzrmv/sl4ygpjqgnqog==" originProviderDefinitionId="c29cc347-223f-4143-881d-e2906d079614" id="59" origin="/Infrastructure/User#Office365Online:ph@cluedin.net" appVersion="2.17.0.0">
+      <processingFlags>
+        <isEdgesProcessed>True</isEdgesProcessed>
+      </processingFlags>
+      <entityData id="50" origin="/Infrastructure/User#Office365Online:ph@cluedin.net">
+        <entityType>/Infrastructure/User</entityType>
+        <name>Philipp Heltewig</name>
+        <codes>
+          <value>/Infrastructure/User#Office365Online:ph@cluedin.net</value>
+        </codes>
+        <discoveryDate>2019-06-13T14:50:21.2600000+00:00</discoveryDate>
+        <edges />
+        <edgesSummary />
+        <properties type="/Metadata/KeyValue">
+          <property key="office365.recipient.emailAddress">ph@cluedin.net</property>
+          <property key="office365.recipient.name">Philipp Heltewig</property>
+        </properties>
+      </entityData>
+      <processedData ref="50" origin="/Infrastructure/User#Office365Online:ph@cluedin.net">
+        <codes>
+          <value>/Person#CluedIn(email):ph@cluedin.net</value>
+        </codes>
+        <edges>
+          <outgoing>
+            <edge type="/PartOf" creationOptions="OnlyIfReferencePointExists" from="C:/Infrastructure/User#Office365Online:ph@cluedin.net" to="C:/Organization#CluedIn(emailDomain):cluedin.net" />
+          </outgoing>
+        </edges>
+        <edgesSummary>
+          <outgoing>
+            <edgeSummary edgeType="/PartOf" count="1" />
+          </outgoing>
+        </edgesSummary>
+        <properties type="/Metadata/KeyValue">
+          <remove-property key="office365.recipient.emailAddress">remove</remove-property>
+          <remove-property key="office365.recipient.name">remove</remove-property>
+          <property key="user.email">ph@cluedin.net</property>
+          <property key="user.firstName">Philipp</property>
+          <property key="user.fullName">Philipp Heltewig</property>
+          <property key="user.lastName">Heltewig</property>
+        </properties>
+        <sortDate>2019-06-13T14:50:21.2600000+00:00</sortDate>
+        <timeToLive>0</timeToLive>
+        <isShadowEntity>False</isShadowEntity>
+      </processedData>
+    </data>
+    <references />
+  </details>
+</entity>

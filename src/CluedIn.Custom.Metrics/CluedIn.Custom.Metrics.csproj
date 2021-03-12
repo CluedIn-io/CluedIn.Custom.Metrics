@@ -3,6 +3,34 @@
     <IsCluedInServerComponent>true</IsCluedInServerComponent>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="TestData\Metrics\account.entity.xml" />
+    <None Remove="TestData\Metrics\ann.entity.xml" />
+    <None Remove="TestData\Metrics\mail-thread.xml" />
+    <None Remove="TestData\Metrics\ph.entity.xml" />
+    <None Remove="TestData\Metrics\phonenumber.entity.xml" />
+    <None Remove="TestData\Metrics\rules.entity.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TestData\Metrics\account.entity.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\Metrics\ann.entity.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\Metrics\mail-thread.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\Metrics\ph.entity.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\Metrics\phonenumber.entity.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\Metrics\rules.entity.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="CluedIn.Core" />
     <PackageReference Include="CluedIn.Metrics" />
     <PackageReference Include="CluedIn.Processing" />
