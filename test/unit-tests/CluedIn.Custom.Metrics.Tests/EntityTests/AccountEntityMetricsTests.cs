@@ -161,13 +161,13 @@ namespace CluedIn.CluedIn.Custom.Metrics.Tests.EntityTests
             Assert.Equal(0f, ((Percentage)globalMetric).ToFloat());
         }
 
-        [Fact]
-        public void ConformityMetricTest()
-        {
-            var (globalMetric, _) = this.TestMetric(new ConformityMetric(this.ProviderResolver), this.entity);
+        //[Fact]
+        //public void ConformityMetricTest()
+        //{
+        //    var (globalMetric, _) = this.TestMetric(new ConformityMetric(this.ProviderResolver), this.entity);
 
-            Assert.Equal(1f, ((Percentage)globalMetric).ToFloat());
-        }
+        //    Assert.Equal(1f, ((Percentage)globalMetric).ToFloat());
+        //}
 
         [Fact]
         public void TimelinessMetricTest()
