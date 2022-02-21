@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CluedIn.Core" />
+    <PackageReference Include="CluedIn.Metrics" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="Moq" />
+    <PackageReference Include="xunit" />
+    <PackageReference Include="xunit.runner.visualstudio" />
+    <PackageReference Include="coverlet.collector" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\CluedIn.Custom.Metrics\CluedIn.Custom.Metrics.csproj" />
+  </ItemGroup>
+
+</Project>
